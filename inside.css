@@ -1,0 +1,73 @@
+body{
+    background-color: #8f8f8f;
+    margin: 0%;
+}
+.fixed-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    margin: 0 auto;
+    border-bottom: 3px solid #000000;
+    background: url('pics/greenRadient.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+  }
+.wpImg{
+    height: 80%;
+    margin-left: 2%;
+    margin-right: 15%;
+}
+.text{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.bracelet1-div,
+.lion-div,
+.eye-div{
+    background-color: #656565;
+    background: url('pics/background-display.jpg ')center/cover no-repeat;
+    background-size: 100% 150%;
+    height: 275px;
+    display: flex;
+    margin-top: 20%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px white;
+}
+.bracelet1,
+.lion,
+.eye{
+    margin-left: 12.5px;
+    height: 250px;
+    width: 250px;
+    align-self: center;
+    box-shadow: 0 0 10px rgb(255, 255, 255, 0.5);
+}
+.bracelet1-txt,
+.lion-txt,
+.eye-txt{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.bracelet1-btn,
+.lion-btn,
+.eye-btn{
+    height: 10%;
+    width:max-content;
+    padding: 0 10%;
+    position: relative;
+    top:80%;
+    right: 22%;
+}
+.lion-div,
+.eye-div{
+    margin-top: 5%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px white;
+}
